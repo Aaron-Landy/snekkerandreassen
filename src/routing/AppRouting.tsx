@@ -1,10 +1,10 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { HomePage, AboutPage, ContactPage } from '../pages'
 import MainHeader from '../components/shared/MainHeader'
 
 const AppRouting = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <MainHeader/>
             <main className='containter' role='main'>
                 <Routes>
@@ -13,7 +13,7 @@ const AppRouting = () => {
                     <Route path='about' element={<AboutPage />}></Route>
                 </Routes>
             </main>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
