@@ -8,7 +8,7 @@ const AboutPage = () => {
     return (
         <div className="about-page">
             <section className="about-intro">
-                <h1>Om Tømrerjuvet</h1>
+                <h1>Om Snekker Andreassen</h1>
                 <p>
                     Vi er et tømrerfirma med base Røyken,
                     og påtar oss oppdrag i store deler av Viken. Fra mindre
